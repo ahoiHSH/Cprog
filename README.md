@@ -6,14 +6,15 @@ Es beginnt mit einer betrisbssystem-spezifischen Anleitung für Linux, MacOS und
 
 Im Anschluss daran gibt es einen allgemeinen Teil, in dem wir unsere Installation testen und ausprobieren.
 
-Entworfen und getestet wurde die Anleitung auf frisch aufgesetzten Betriebssystemen. Sollte etwas nicht so funktionieren wie beschrieben schaut bitte in die Troubleshooting-Sektion. Auch hier gibt es zunächst Abschnitte für die drei Betriebssysteme. Danach gibt es wieder einen allgemeinen Teil, der für alle gilt.
+Entworfen und getestet wurde die Anleitung auf frisch aufgesetzten Betriebssystemen. Sollte etwas nicht so funktionieren wie beschrieben schaut bitte in die Troubleshooting-Sektion. Hier gibt es zunächst einen allgemeinen Teil, der für alle gilt. Danach gibt es Abschnitte für die drei Betriebssysteme.
+
 
 ## Linux
 
 <details>
 <summary>Click to expand</summary>
 
-whatever
+Welcome to the light side. We all know you just clicked for the lulz.
 
 </details>
 
