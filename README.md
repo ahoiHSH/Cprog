@@ -442,9 +442,37 @@ Indem wir links neben die Zeilennummern klicken, können wir sogenannte Breakpoi
 
 # Troubleshooting
 
+## Allgemein
+
+### Sonder- oder Leerzeichen irgendwo im Pfad?
+
+Insbesondere, aber nicht nur, bei der Fehlermeldung
+
+#### File not found
+
+sollte man dies nochmal genau überprüfen.
+
+  Heißt die Datei z. B. Prüfsumme.c?
+  Irgendeiner der Ordner, in der sich die Datei schließlich befindet "Übung" oder "Neue Projekte"?
+  Ist der Benutzername Ségolène?
+  
+### Virenscanner?
+
+Bei der Installation, insbesondere dem Herunterladen und Installieren von Chocolatey können übereifrige Virenscanner Probleme machen.
+
+Auch das Aufrufen des Compilers oder -noch öfter- des Debuggers kann Virenscanner irritieren.
+
+Der hauseigene Virenscanner von Windows (Defender) ist bisher eher zurückhaltend, bekannt sind Problem mit AntiVir und McAfee.
+
+In diesem Fall kann man das Anti-Virus Programm für einen kurzen Moment ausstellen und es so probieren. Beim Testen von Compiler und Debugger kann man die Internetverbindung vorher trennen.
+
+
 ## Linux
 
 ## MacOS
 
 ## Windows
 
+Eine unvollständige Installation von Chocolatey kann man mit folgendem Befehl entfernen:
+
+> Remove-Item C:\ProgramData\chocolatey -Recurse
