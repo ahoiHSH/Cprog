@@ -289,7 +289,7 @@ Wie fast immer in VSCode führen viele Wege ans Ziel und es ist Geschmackssache,
 
 Im folgenden Screenshot sind mal drei Möglichkeiten markiert (eine mit vorherigem Rechtsklick):
 
-![image](https://user-images.githubusercontent.com/78163337/111466419-90549700-8723-11eb-82ca-3ecfa8fb9e44.png)
+
 
 - [x] Ordner angelegt
 - [ ] Datei angelegt
