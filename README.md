@@ -21,7 +21,8 @@ whatever
 
 <details>
   
-<summary>Hier klicken um VSCode auf Windows zu installieren</summary>  
+<summary>Hier klicken um VSCode auf MacOS zu installieren</summary>  
+
 ### Bevor wir beginnen
 Damit wir mit Visual Studio Code C programmieren können brauchen wir einen Compiler und Debugger. 
 
