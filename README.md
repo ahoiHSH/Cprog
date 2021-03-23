@@ -283,11 +283,11 @@ Nun testen wir unsere Installation und machen uns dabei schon ein wenig mit VSCo
 
 Das Anlegen eines neuen Ordner ist denkbar einfach, jedoch gibt es ein paar Kleinigkeiten zu beachten, die sonste große Kopfschmerzen bereiten können.
 
-Die wichtigste ist es Sonder- und Leerzeichen, Umlaute und andere nicht-ASCII-Zeichen unbedingt zu vermeiden. Spätestens wenn das eigene Programm inklusive Unterordner auf einem Produktionsserver ohne grafische Benutzeroberfläche landet für das zu allerlei Schwierigkeiten. Wahrscheinlich geht es einem aber schon auf dem eigenen Rechner gehörig auf die Nerven.
+Die wichtigste ist es Sonder- und Leerzeichen, Umlaute und andere nicht-ASCII-Zeichen unbedingt zu vermeiden. Spätestens wenn das eigene Programm inklusive Unterordner auf einem Produktionsserver ohne grafische Benutzeroberfläche landet führt das zu allerlei Schwierigkeiten. Wahrscheinlich geht es einem aber schon auf dem eigenen Rechner gehörig auf die Nerven.
 
 Wie fast immer in VSCode führen viele Wege ans Ziel und es ist Geschmackssache, welchen man wählt.
 
-Im folgenden Screenshot sind mal drei Möglichkeiten markiert (eine mir vorherigem Rechtsklick):
+Im folgenden Screenshot sind mal drei Möglichkeiten markiert (eine mit vorherigem Rechtsklick):
 
 ![image](https://user-images.githubusercontent.com/78163337/111466419-90549700-8723-11eb-82ca-3ecfa8fb9e44.png)
 
@@ -300,13 +300,13 @@ Im folgenden Screenshot sind mal drei Möglichkeiten markiert (eine mir vorherig
 
 ### Datei erstellen
 
-Die Datei erstellt man genau wie den Ordner, nur der Kommandozeilen-Befehl lautet nicht "mkdir", sondern "touch" bei Linux und MacOS bzw. New-Item -ItemType file in der Windows PowerShell.
+Die Datei erstellt man genau wie den Ordner, nur der Kommandozeilen-Befehl lautet nicht `<mkdir>`, sondern `<touch>` bei Linux und MacOS bzw. `<New-Item -ItemType file>` in der Windows PowerShell.
 
 Damit VSCode weiß, wie es mit einer Datei umzugehen hat, muss sie von uns mit der richtigen Endung versehen werden. Wir legen zum Ausprobieren zwei neue Dateien an:
 
-> beispielProgramm.c
+> beispielProgramm.c   // Eine Datei mit C-Code
   und
-> raumFuerNotizen.txt
+> raumFuerNotizen.txt  // Eine Text-Datei
  
 Ein erster Eintrag in raumFuerNotizen.txt könnte z. B. sein:
 
@@ -354,7 +354,7 @@ und fügen folgenden Text ein:
 
 Bei einem Blick an den oberen Bildschirmrand sehen wir neben dem Namen unserer Datei einen weißen (bei Standardfarbeinstellungen) Kreis. Dies bedeutet, dass es nicht gespeicherte Änderungen gibt.
 
-Durch betätigen von [command] + [s] (MacOS/Linux) bzw. [strg] + [s] speichern wir unsere Arbeit und sehen, dass sich der Kreis in ein X verwandelt.
+Durch das Betätigen von [command] + [s] (MacOS) bzw. [strg] + [s] speichern wir unsere Arbeit und sehen, dass sich der Kreis in ein X verwandelt.
 
 - [x] Ordner angelegt
 - [x] Datei angelegt
